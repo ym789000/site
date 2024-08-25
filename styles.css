@@ -28,6 +28,10 @@ body {
     padding: 20px 10px;
 }
 
+.peygiri :first-child {
+    font-family: Arial, sans-serif;
+}
+
 .etelaat {
     display: flex;
     background: #fff;
@@ -85,15 +89,16 @@ img {
 .fardi :first-child {
     font-weight: bold;
     font-size: 16px;
+    color: #383b4b;
 }
 
-/*.border {*/
-/*    border-bottom: 1px solid #fd6800;*/
-/*    padding-bottom: 20px;*/
-/*    margin-bottom: 20px;*/
-/*    width: 10px;*/
-/*    height: 100%;*/
-/*}*/
+.ezafi {
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #8b8f9e;
+    font-size: 16px;
+    direction: rtl;
+}
 
 
 input[type="text"] {
@@ -103,7 +108,9 @@ input[type="text"] {
     margin: 5px 0;
     font-size: 16px;
     border: none;
+    font-weight: bold;
     border-radius: 5px;
+    color: #8b8f9e;
     background-color: #edf0f4;
     font-family: "MyCustomFont", sans-serif;
 }
