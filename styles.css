@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/B-NAZANIN.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: "B Nazanin", sans-serif;
+    font-family: "MyCustomFont", sans-serif;
     background: #edf0f4;
     margin: 0;
 }
@@ -53,12 +60,13 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .moshakhasat {
@@ -97,5 +105,5 @@ input[type="text"] {
     border: none;
     border-radius: 5px;
     background-color: #edf0f4;
-    font-family: "B Nazanin", sans-serif;
+    font-family: "MyCustomFont", sans-serif;
 }
