@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "B Nazanin", sans-serif;
+    background: #edf0f4;
+    margin: 0;
+}
+
+.aks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.peygiri {
+    font-size: 18px;
+    color: #1651df;
+    background: #edf0f4;
+    padding: 20px 10px;
+}
+
+.etelaat {
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    border-right: 5px solid #fd6800;
+    direction: rtl;
+}
+
+.neveshte {
+   display: flex;
+    flex-direction: column;
+}
+
+.neveshte :first-child {
+    color: #fd6800;
+    font-weight: bold;
+
+}
+
+.kolli {
+    margin-bottom: 20px;
+}
+
+.qrcode {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.moshakhasat {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    border-top: 5px solid #1651df;
+    margin: 10px;
+    direction: rtl;
+}
+
+.fardi {
+    margin-bottom: 10px;
+}
+
+.fardi :first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*.border {*/
+/*    border-bottom: 1px solid #fd6800;*/
+/*    padding-bottom: 20px;*/
+/*    margin-bottom: 20px;*/
+/*    width: 10px;*/
+/*    height: 100%;*/
+/*}*/
+
+
+input[type="text"] {
+    direction: rtl;
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #edf0f4;
+    font-family: "B Nazanin", sans-serif;
+}
